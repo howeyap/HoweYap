@@ -35,6 +35,19 @@ body .section__content, html .section__content {
     width: 125%;
 }
 
+body .section__title, html .section__title {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 200px;
+    margin-right: 70px;
+    color: #ac3232;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
 figure {
     display: block;
     margin-block-start: 1em;
@@ -51,4 +64,8 @@ figure {
 
 .featured-projects .project__name {
     margin-bottom: 10px;
+}
+
+div {
+    display: block;
 }
