@@ -78,6 +78,12 @@ body .section__content, html .section__content {
 }
 
 .featured-projects .project {
+    width: 100%;
+    display: block;
+    margin-bottom: 70px;
+}
+
+.featured-projects .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -89,8 +95,6 @@ body .section__content, html .section__content {
 body .section__title, html .section__title {
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 200px;
-    margin-right: 70px;
     color: #296e3a;
     text-transform: uppercase;
     text-align: center;
