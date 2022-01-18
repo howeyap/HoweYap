@@ -28,6 +28,11 @@ body, html {
     margin: 0 auto;
 }
 
+.intro__wrap {
+    max-width: 1000px;
+    position: relative;
+}
+
 .intro__wrap .intro__tagline {
     line-height: 50px;
 }
