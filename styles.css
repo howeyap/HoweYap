@@ -55,6 +55,10 @@ body a, html a {
     font-weight: 700;
 }
 
+.intro .name {
+    font-weight: 700;
+}
+
 .featured-projects .project__name a {
     font-weight: 700;
 }
@@ -87,9 +91,9 @@ body .section__title, html .section__title {
     flex-shrink: 0;
     width: 200px;
     margin-right: 70px;
-    color: #ac3232;
+    color: #296e3a;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
     font-weight: 700;
     letter-spacing: 2px;
 }
