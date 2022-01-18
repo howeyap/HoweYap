@@ -1,6 +1,53 @@
-body {
+figcaption {
+    display: block;
+}
+
+body, html {
     margin: 0;
-    background: papayawhip;
-    text-align: center;
-    font-family: sans-serif;
+    padding: 0;
+    background-color: #fff;
+    color: #444452;
+    font-family: Raleway, "Source Sans Pro", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+body .section__content, html .section__content {
+    font-weight: 300;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 650px;
+}
+
+.featured-projects .project__caption {
+    width: 125px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.featured-projects .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: -5%;
+    width: 125%;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.featured-projects .project__pic {
+    max-width: 700px;
+    overflow: visible;
+    margin: 0;
+}
+
+.featured-projects .project__name {
+    margin-bottom: 10px;
 }
