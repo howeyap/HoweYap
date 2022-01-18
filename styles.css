@@ -12,6 +12,10 @@ body, html {
     text-align: center;
 }
 
+.featured-projects .project__name a {
+    font-weight: 700;
+}
+
 body .section__content, html .section__content {
     font-weight: 300;
     font-size: 1rem;
