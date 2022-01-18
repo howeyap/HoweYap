@@ -9,6 +9,7 @@ body, html {
     color: #444452;
     font-family: Raleway, "Source Sans Pro", Helvetica, Arial, sans-serif;
     line-height: 1.5;
+    text-align: center;
 }
 
 body .section__content, html .section__content {
