@@ -5,8 +5,8 @@ figcaption {
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    color: #444452;
+    background: var(--bg-color);
+    color: var(--text-color);
     font-family: Raleway, "Source Sans Pro", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     text-align: center;
