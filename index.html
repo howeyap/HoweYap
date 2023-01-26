@@ -1,32 +1,196 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Howe Yap</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+/>
 </head>
     
 <body> 
 
     <!--header design-->
     <header>
-        <a href="#" class="logo">Cod<span>e</span>r.</a>
+        <a href="#" class="logo">Howe Andre<span> Luke</span> Yap</a>
 
         <ul class="navlist">
             <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about" class="active">About Me</a></li>
-            <li><a href="#services" class="active">Services</a></li>
-            <li><a href="#portfolio" class="active">Portfolio</a></li>
-            <li><a href="#contact me" class="active">Contact Me</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
         <div class="bx bx-menu" id="menu-icon">
 
         </div>
-    </header><!--custom js link-->
-    <script type="text/javascript" src="js/script.js"></script>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Luke</h1>
+            <h3><span><i>a graduate of</i></span> De La Salle-<br>College of Saint Benilde</br></h3>
+            <h3><span><i>in the degree program </i></span> <span>BS <br>Interactive Entertainment<br> and Multimedia Computing</span></h3>
+            <p></p>
+            <div class="button">
+                <a href="#contact" class="btn">Say hello</a>
+                <!-- <a href="#" class="btn2"><span><i class='bx bx-play'></i></span>Watch my work</a> -->
+            </div>
+        </div>
+    </section>
+    
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="imgs/gamejam.JPG">
+        </div>
+
+        <div class="about-text">
+            <h2>About<span> Me</span></h2>
+            <h4>Game Programmer</h4>
+            <p> fresh out of college, I intend to look for a company
+                where I could ship many successful projects, improve what I already have and develop where I lack. </p> 
+            <a href="#" class="btn">More About</a>
+        </div>
+    </section>
+
+    <!--service section design-->
+    <section class="services" id="skills">
+        <div class="main-text">
+            <p>Skills</p>
+            <h2><span>My</span> Technical Skills</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>Unity C#</h3>
+                <p>All 3 of our Capstone games were made with Unity,
+                    my use of the Unity engine extends to the animation
+                    blend trees and even customizing the inspector.
+                </p>
+                <!-- <a href="#" class="read">Read More</a> -->
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-edit-alt'></i>
+                </div>
+                <h3>Unreal C++</h3>
+                <p>In my time as a student I was taught how to use blueprints
+                    and C++ together. This is where I learnt component based
+                    architecture which I then brought and practiced into Unity.
+                </p>
+                <!-- <a href="#" class="read">Read More</a> -->
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-mobile-alt'></i>
+                </div>
+                <h3>(WIP) Javascript</h3>
+                <p>The next step for me would be to learn and
+                    hopefully publish a game under javascript.
+                </p>
+                <!-- <a href="#" class="read">Read More</a> -->
+            </div>
+        </div>
+    </section>
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <p>Portfolio</p>
+            <h2><span>Latest</span> Projects</h2>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="imgs/intimeearth.png">
+                <div class="layer">
+                    <h5>In Time: Earth</h5>
+                    <p>Developed under the guidance of Senshi.Labs, awarded as a GDAP Professional Track finalist. We've learnt to use PM tools professionally
+                        in our internship. Clocking in at 8, checking the tasks, if tasks are done move them to the verify tab, then I check the backlog. Here
+                        is where I also learned to structure my code to make it easier for the designer.
+                    </p>
+                    <a href="https://senshilabs.itch.io/in-time-earth" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="imgs/frankies.png">
+                <div class="layer">
+                    <h5>Frankie's Diner</h5>
+                    <p>Our 2nd Capstone, developed under sir Jebb Lim. This is where I grew the most as a programmer. OOP and Component-based design were used to its full extent.</p>
+                    <a href="https://5guys1game.itch.io/frankies-diner" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="imgs/MonkeySpell.png">
+                <div class="layer">
+                    <h5>MonkeySpell</h5>
+                    <p>A project made with our partner school, built initially for mobile then ported to PC. Simple spelling game with skins, multiple profiles and achievements.</p>
+                    <a href="https://5guys1game.itch.io/monkeyspell" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span> Me!</span></h2>
+            <h4>full-fledged programmer at your service.</h4>
+            <p></p>
+            <div class="list">
+                
+                <li><a href="#"><span class="fi fi-ph"></span> +63 917 701 2026</a></li>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=howeandrelukeyap@gmail.com&su=SUBJECT&body=BODY" target="_blank">howeandrelukeyap@gmail.com</a></li>
+            </div>
+
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/howe.a.yap/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/howeyap/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://twitter.com/howeyap" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <input type="" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You?" required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+        </div>
+    </section>
+
+    <!--end section design-->
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright © 2022 by Tahmid Ahmed All Rights Reserved.</p>
+        </div>
+
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </section>
+
+    <!--custom js link-->
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
