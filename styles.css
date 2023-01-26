@@ -2,6 +2,16 @@ figcaption {
     display: block;
 }
 
+:root{
+    --bg-color: #2a2a2a;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-color: #ccc;
+    --main-color: #8e50aa;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
 body, html {
     margin: 0;
     padding: 0;
@@ -12,6 +22,19 @@ body, html {
     text-align: center;
 }
 
+.navlist a{
+    color: var(--second-color);
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45 ease;
+}
+.navlist a:hover{
+    color: var(--main-color)
+}
+.navlist a:active{
+    color: var(--main-color);
+}
 .intro {
     padding: 120px 100px;
     height: 100vh;
